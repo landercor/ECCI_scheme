@@ -1,0 +1,80 @@
+
+:root {
+    font-family: 'Arial', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-family: 'Verdana', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+    font-family: 'Tahoma', 'Geneva', sans-serif;
+    font-family: 'Impact', Charcoal, sans-serif;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Arial Black', Gadget, sans-serif;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Signika+Negative&display=swap');
+
+
+span, a, h2  {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: light;
+    font-weight: bold;
+}
+
+#navbar-z {
+    background-color: transparent;
+    transition: background-color 0.3s ease ; 
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
+#navbar-z.scrolled {
+    background-color: rgba(255, 255, 255, 0.548) !important;
+}
+.overflow-divider {
+    padding-bottom: 0.18em;
+}
+
+.image-cover {
+    height: 510px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.overflow-divider {
+    padding-bottom: 0.18em;
+}
+
+.image-cover {
+    height: 410px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.heading-title {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.overflow-hidden-divider {
+    padding-bottom: 0.18em;
+}
+
+.activity-label {
+    letter-spacing: 0.30em;
+    font-family: monospace;
+}
+
+.styles-span {
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh6UVSwaPGR_p.woff2) format('woff2');
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}

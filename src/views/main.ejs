@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main view | <i class="fa fa-university" aria-hidden="true"></i></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/public/css/styles.css">
+    <style>
+        
+    </style>
+    <!-- antes del </body> -->
+    <script src="/js/Scroll_UD.js"></script>
+</head>
+<body>
+    <%- include('./partials/navbar') %> <!-- navbar render/static-->
+    <main>
+
+        <section class="container py-5">
+
+            <div class="row ">
+                <div class="col-lg-8">
+                    <span class="text-secondary d-block mb-3">
+                        U<small>niversity</small> ECCI
+                    </span>
+                    <hr class="w-25 border-secondary opacity-100 mb-4">
+                    <h1 class="display-4 fw-bold mb-4 heading-title">
+                        EVENTO DE MODA ECCI
+                    </h1>
+                    <p>
+                        Este fue un evento en el cual tuve la oportunidad de participar y conocer uno de los temas más fascinantes dentro del diseño y la teoria del color.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="container border-top mt-3 pt-5"> <!--define the spacing-->
+            <div class="row align-items-start justify-content-center g-5">
+            <div class="col-md-6">
+            <img 
+                src="/img/img (1).jpeg"
+                alt="Evento de moda ECCI"
+                class="img-fluid image-cover"
+                >
+                <p class=" d-flex mt-3 text-uppercase text-muted small opacity-50 justify-content-start align-content-start" style="font-family: monospace; letter-spacing: 0.26em"> Evento « Teoria « Enseñanza</p>
+            </div>
+            <div class="col-md-6 col-6">
+
+            <h2 class="fw-bold mb-4 mt-1">
+                ¿Qué es la teoría del color?
+            </h2>
+                <p class="lead text-muted mb-4 fs-6 " style="font-family: 'Lato', sans serif;" >
+                    La teoría del color es un conjunto de principios que explica cómo interactúan los colores entre sí y cómo influyen en la percepción visual y emocional de las personas.
+                </p>
+            <p class="lead text-muted mb-4 fs-6">
+                La teoría del color es un conjunto de principios que explica cómo interactúan los colores entre sí y cómo influyen en la percepción visual y emocional de las personas.
+            </p>
+            <p class="lead text-muted mb-4 fs-6">
+                La teoría del color es un conjunto de principios que explica cómo interactúan los colores entre sí y cómo influyen en la percepción visual y emocional de las personas.
+            </p>
+            <p class="lead text-muted mb-4 fs-6">
+                La teoría del color es un conjunto de principios que explica cómo interactúan los colores entre sí y cómo influyen en la percepción visual y emocional de las personas.
+            </p>
+            <p class="lead text-muted mb-4 fs-6">
+                La teoría del color es un conjunto de principios que explica cómo interactúan los colores entre sí y cómo influyen en la percepción visual y emocional de las personas.
+            </p>
+        </section>
+        <section class="container border-top py-5 my-5" style="background-color: rgba(218, 219, 219, 0.295);">
+            <div class=" row aling-iterms-center mb-5">
+                
+                <div class="col-md-4 aling-items-start">
+                    <p class="text-uppercase m-0"
+                        style="letter-spacing: 0.30em; font-family: monospace">
+                        <small class="opacity-50 p-4 m-5 my-3">
+                            actividad</small>
+                    </p>
+                </div>
+                <div class="col-md-8">
+                    <h2 class="fs-1">
+                    <span class="styles-span d-block">Teoría del color: Tendencias e historia</span>
+                    <span class="styles-span d-block">Teoría del color: Tendencias e historia</span>
+                    </h2>
+                </div>
+                <div class="">
+                    <div class="" >
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="d-block overflow-hidden" style="padding-bottom: 0.18em;">
+
+            </div>
+
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script> <!--Esta es un libreria donde se puede encontrar stylos de navegacion cambiar como por ejemplo intersectar el tipo de scroll-->
+    <script>
+        const lenis = new Lenis({
+        duration: 1.4,
+        });
+
+        function raf(time) {
+        lenis.raf(time);
+        requestAnimationFrame(raf);
+        }
+
+        requestAnimationFrame(raf);
+    </script>
+    <script src="/js/Scroll_UD.js"></script>
+
+    <%- include('./partials/footer.ejs') %>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+    "sourceFile": "public/js/Scroll_UD.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1780876779564,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1780876779564,
+            "name": "Commit-0",
+            "content": "window.addEventListener('scroll', () => {\n    const navbar = document.getElementById('navbar-z');\n    if (window.scrollY > 50) {\n        navbar.classList.add('scrolled');\n    } else {\n        navbar.classList.remove('scrolled');\n    }\n});"
+        }
+    ]
+}

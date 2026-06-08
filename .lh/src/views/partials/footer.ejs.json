@@ -1,0 +1,214 @@
+{
+    "sourceFile": "src/views/partials/footer.ejs",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 49,
+            "patches": [
+                {
+                    "date": 1780870608965,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1780870960234,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,3 @@\n-<!DOCTYPE html>\n-<html lang=\"es\">\n-<head>\n-    <meta charset=\"UTF-8\">\n-    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n-    <title>Document</title>\n-</head>\n-<body>\n-    \n-</body>\n-</html>\n\\ No newline at end of file\n+<footer>\n+    <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\">Autor Aprendiz Fabian Andres Asprilla Valverde</p>\n+</footer>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1780871418476,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,10 @@\n <footer>\n     <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\">Autor Aprendiz Fabian Andres Asprilla Valverde</p>\n+    \n+    <div class=\"link-related-footer\">\n+        <p>My username</p>\n+        <a href=\"https://github.com/landercor\" alt=\"my-profiles\">Landercor</a>\n+        <a href=\"https://github.com/Landercorf-As \" alt=\"my-profiles\">Fabian Asprilla</a>\n+    </div>\n+    <!-- Un gusto :) -->\n </footer>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1780871513912,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <footer>\n     <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\">Autor Aprendiz Fabian Andres Asprilla Valverde</p>\n     \n     <div class=\"link-related-footer\">\n-        <p>My username</p>\n+        <span>My username</span>\n         <a href=\"https://github.com/landercor\" alt=\"my-profiles\">Landercor</a>\n         <a href=\"https://github.com/Landercorf-As \" alt=\"my-profiles\">Fabian Asprilla</a>\n     </div>\n     <!-- Un gusto :) -->\n"
+                },
+                {
+                    "date": 1780873912653,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <footer>\n     <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\">Autor Aprendiz Fabian Andres Asprilla Valverde</p>\n     \n     <div class=\"link-related-footer\">\n-        <span>My username</span>\n+        <span class=\"\"><i class=\"fa fa-github\" aria-hidden=\"true\"></i></span>\n         <a href=\"https://github.com/landercor\" alt=\"my-profiles\">Landercor</a>\n         <a href=\"https://github.com/Landercorf-As \" alt=\"my-profiles\">Fabian Asprilla</a>\n     </div>\n     <!-- Un gusto :) -->\n"
+                },
+                {
+                    "date": 1780873934682,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <footer>\n     <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\">Autor Aprendiz Fabian Andres Asprilla Valverde</p>\n     \n-    <div class=\"link-related-footer\">\n+    <div class=\"link-related-footer m-5\">\n         <span class=\"\"><i class=\"fa fa-github\" aria-hidden=\"true\"></i></span>\n         <a href=\"https://github.com/landercor\" alt=\"my-profiles\">Landercor</a>\n         <a href=\"https://github.com/Landercorf-As \" alt=\"my-profiles\">Fabian Asprilla</a>\n     </div>\n"
+                },
+                {
+                    "date": 1780873952025,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n-<footer>\n+<footer class=\"m-5\">\n     <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\">Autor Aprendiz Fabian Andres Asprilla Valverde</p>\n     \n-    <div class=\"link-related-footer m-5\">\n+    <div class=\"link-related-footer \">\n         <span class=\"\"><i class=\"fa fa-github\" aria-hidden=\"true\"></i></span>\n         <a href=\"https://github.com/landercor\" alt=\"my-profiles\">Landercor</a>\n         <a href=\"https://github.com/Landercorf-As \" alt=\"my-profiles\">Fabian Asprilla</a>\n     </div>\n"
+                },
+                {
+                    "date": 1780873963040,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-<footer class=\"m-5\">\n+<footer class=\"mx-5\">\n     <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\">Autor Aprendiz Fabian Andres Asprilla Valverde</p>\n     \n     <div class=\"link-related-footer \">\n         <span class=\"\"><i class=\"fa fa-github\" aria-hidden=\"true\"></i></span>\n"
+                },
+                {
+                    "date": 1780873971029,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-<footer class=\"mx-5\">\n+<footer class=\"my-5\">\n     <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\">Autor Aprendiz Fabian Andres Asprilla Valverde</p>\n     \n     <div class=\"link-related-footer \">\n         <span class=\"\"><i class=\"fa fa-github\" aria-hidden=\"true\"></i></span>\n"
+                },
+                {
+                    "date": 1780874103212,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\">Autor Aprendiz Fabian Andres Asprilla Valverde</p>\n     \n     <div class=\"link-related-footer \">\n         <span class=\"\"><i class=\"fa fa-github\" aria-hidden=\"true\"></i></span>\n-        <a href=\"https://github.com/landercor\" alt=\"my-profiles\">Landercor</a>\n+        <a href=\"https://github.com/landercor\" aria-current=\"page\" alt=\"my-profiles\">Landercor</a>\n         <a href=\"https://github.com/Landercorf-As \" alt=\"my-profiles\">Fabian Asprilla</a>\n     </div>\n     <!-- Un gusto :) -->\n </footer>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1780874114577,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n     \n     <div class=\"link-related-footer \">\n         <span class=\"\"><i class=\"fa fa-github\" aria-hidden=\"true\"></i></span>\n         <a href=\"https://github.com/landercor\" aria-current=\"page\" alt=\"my-profiles\">Landercor</a>\n-        <a href=\"https://github.com/Landercorf-As \" alt=\"my-profiles\">Fabian Asprilla</a>\n+        <a href=\"https://github.com/Landercorf-As\" aria-current=\"page\" alt=\"my-profiles\">Fabian Asprilla</a>\n     </div>\n     <!-- Un gusto :) -->\n </footer>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1780874165066,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-<footer class=\"my-5\">\n+<footer class=\"my-5 row\">\n     <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\">Autor Aprendiz Fabian Andres Asprilla Valverde</p>\n     \n     <div class=\"link-related-footer \">\n         <span class=\"\"><i class=\"fa fa-github\" aria-hidden=\"true\"></i></span>\n"
+                },
+                {
+                    "date": 1780874196038,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-<footer class=\"my-5 row\">\n+<footer class=\"my-5 row border-top mt-3 pt-4\">\n     <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\">Autor Aprendiz Fabian Andres Asprilla Valverde</p>\n     \n     <div class=\"link-related-footer \">\n         <span class=\"\"><i class=\"fa fa-github\" aria-hidden=\"true\"></i></span>\n"
+                },
+                {
+                    "date": 1780874254070,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-<footer class=\"my-5 row border-top mt-3 pt-4\">\n+<footer class=\"my-5 row border-top mt-3 pt-4 ps-5 pe-1 align-items-center justify-content-center\">\n     <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\">Autor Aprendiz Fabian Andres Asprilla Valverde</p>\n     \n     <div class=\"link-related-footer \">\n         <span class=\"\"><i class=\"fa fa-github\" aria-hidden=\"true\"></i></span>\n"
+                },
+                {
+                    "date": 1780874313679,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-<footer class=\"my-5 row border-top mt-3 pt-4 ps-5 pe-1 align-items-center justify-content-center\">\n+<footer class=\"my-5 column border-top mt-3 pt-4 ps-5 pe-1 align-items-center justify-content-center\">\n     <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\">Autor Aprendiz Fabian Andres Asprilla Valverde</p>\n     \n     <div class=\"link-related-footer \">\n         <span class=\"\"><i class=\"fa fa-github\" aria-hidden=\"true\"></i></span>\n"
+                },
+                {
+                    "date": 1780874323103,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-<footer class=\"my-5 column border-top mt-3 pt-4 ps-5 pe-1 align-items-center justify-content-center\">\n+<footer class=\"my-5 border-top mt-3 pt-4 ps-5 pe-1 align-items-center justify-content-center\">\n     <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\">Autor Aprendiz Fabian Andres Asprilla Valverde</p>\n     \n     <div class=\"link-related-footer \">\n         <span class=\"\"><i class=\"fa fa-github\" aria-hidden=\"true\"></i></span>\n"
+                },
+                {
+                    "date": 1780874350073,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-<footer class=\"my-5 border-top mt-3 pt-4 ps-5 pe-1 align-items-center justify-content-center\">\n+<footer class=\"my-5 border-top align-items-center justify-content-center\">\n     <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\">Autor Aprendiz Fabian Andres Asprilla Valverde</p>\n     \n     <div class=\"link-related-footer \">\n         <span class=\"\"><i class=\"fa fa-github\" aria-hidden=\"true\"></i></span>\n"
+                },
+                {
+                    "date": 1780874388729,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n-<footer class=\"my-5 border-top align-items-center justify-content-center\">\n-    <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\">Autor Aprendiz Fabian Andres Asprilla Valverde</p>\n+<footer class=\"my-5 border-top text-uppercase align-items-center justify-content-center\">\n+    <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\"> <span class=\"text-uppercase\">Autor</span> Aprendiz Fabian Andres Asprilla Valverde</p>\n     \n     <div class=\"link-related-footer \">\n         <span class=\"\"><i class=\"fa fa-github\" aria-hidden=\"true\"></i></span>\n         <a href=\"https://github.com/landercor\" aria-current=\"page\" alt=\"my-profiles\">Landercor</a>\n"
+                },
+                {
+                    "date": 1780874395024,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-<footer class=\"my-5 border-top text-uppercase align-items-center justify-content-center\">\n+<footer class=\"my-5 border-top align-items-center justify-content-center\">\n     <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\"> <span class=\"text-uppercase\">Autor</span> Aprendiz Fabian Andres Asprilla Valverde</p>\n     \n     <div class=\"link-related-footer \">\n         <span class=\"\"><i class=\"fa fa-github\" aria-hidden=\"true\"></i></span>\n"
+                },
+                {
+                    "date": 1780874414185,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <footer class=\"my-5 border-top align-items-center justify-content-center\">\n-    <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\"> <span class=\"text-uppercase\">Autor</span> Aprendiz Fabian Andres Asprilla Valverde</p>\n+    <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\"> <span class=\"text-uppercase fs-6\">Autor</span> Aprendiz Fabian Andres Asprilla Valverde</p>\n     \n     <div class=\"link-related-footer \">\n         <span class=\"\"><i class=\"fa fa-github\" aria-hidden=\"true\"></i></span>\n         <a href=\"https://github.com/landercor\" aria-current=\"page\" alt=\"my-profiles\">Landercor</a>\n"
+                },
+                {
+                    "date": 1780874445394,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <footer class=\"my-5 border-top align-items-center justify-content-center\">\n-    <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\"> <span class=\"text-uppercase fs-6\">Autor</span> Aprendiz Fabian Andres Asprilla Valverde</p>\n+    <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\"> <span class=\"text-uppercase\" style=\"font-family: monospace;\">Autor</span> Aprendiz Fabian Andres Asprilla Valverde</p>\n     \n     <div class=\"link-related-footer \">\n         <span class=\"\"><i class=\"fa fa-github\" aria-hidden=\"true\"></i></span>\n         <a href=\"https://github.com/landercor\" aria-current=\"page\" alt=\"my-profiles\">Landercor</a>\n"
+                },
+                {
+                    "date": 1780874480184,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <footer class=\"my-5 border-top align-items-center justify-content-center\">\n-    <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\"> <span class=\"text-uppercase\" style=\"font-family: monospace;\">Autor</span> Aprendiz Fabian Andres Asprilla Valverde</p>\n+    <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\"> <span class=\"text-uppercase\" style=\"font-family: 'Lato', sans-serif;\">Autor</span> Aprendiz Fabian Andres Asprilla Valverde</p>\n     \n     <div class=\"link-related-footer \">\n         <span class=\"\"><i class=\"fa fa-github\" aria-hidden=\"true\"></i></span>\n         <a href=\"https://github.com/landercor\" aria-current=\"page\" alt=\"my-profiles\">Landercor</a>\n"
+                },
+                {
+                    "date": 1780874552810,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <footer class=\"my-5 border-top align-items-center justify-content-center\">\n-    <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\"> <span class=\"text-uppercase\" style=\"font-family: 'Lato', sans-serif;\">Autor</span> Aprendiz Fabian Andres Asprilla Valverde</p>\n+    <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\"> <span class=\"text-uppercase\">Autor</span> Aprendiz Fabian Andres Asprilla Valverde</p>\n     \n     <div class=\"link-related-footer \">\n         <span class=\"\"><i class=\"fa fa-github\" aria-hidden=\"true\"></i></span>\n         <a href=\"https://github.com/landercor\" aria-current=\"page\" alt=\"my-profiles\">Landercor</a>\n"
+                },
+                {
+                    "date": 1780874583199,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <footer class=\"my-5 border-top align-items-center justify-content-center\">\n-    <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\"> <span class=\"text-uppercase\">Autor</span> Aprendiz Fabian Andres Asprilla Valverde</p>\n+    <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\">Autor Aprendiz Fabian Andres Asprilla Valverde</p>\n     \n     <div class=\"link-related-footer \">\n         <span class=\"\"><i class=\"fa fa-github\" aria-hidden=\"true\"></i></span>\n         <a href=\"https://github.com/landercor\" aria-current=\"page\" alt=\"my-profiles\">Landercor</a>\n"
+                },
+                {
+                    "date": 1780874593513,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <footer class=\"my-5 border-top align-items-center justify-content-center\">\n-    <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\">Autor Aprendiz Fabian Andres Asprilla Valverde</p>\n+    <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\"> <span class=\"text-uppercase\">Autor</span> Aprendiz Fabian Andres Asprilla Valverde</p>\n     \n     <div class=\"link-related-footer \">\n         <span class=\"\"><i class=\"fa fa-github\" aria-hidden=\"true\"></i></span>\n         <a href=\"https://github.com/landercor\" aria-current=\"page\" alt=\"my-profiles\">Landercor</a>\n"
+                },
+                {
+                    "date": 1780874614059,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <footer class=\"my-5 border-top align-items-center justify-content-center\">\n-    <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\"> <span class=\"text-uppercase\">Autor</span> Aprendiz Fabian Andres Asprilla Valverde</p>\n+    <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\">Autor Aprendiz Fabian Andres Asprilla Valverde</p>\n     \n     <div class=\"link-related-footer \">\n         <span class=\"\"><i class=\"fa fa-github\" aria-hidden=\"true\"></i></span>\n         <a href=\"https://github.com/landercor\" aria-current=\"page\" alt=\"my-profiles\">Landercor</a>\n"
+                },
+                {
+                    "date": 1780874656923,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-<footer class=\"my-5 border-top align-items-center justify-content-center\">\n+<footer class=\"gitrd text-center my-5 border-top align-items-center justify-content-center\">\n     <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\">Autor Aprendiz Fabian Andres Asprilla Valverde</p>\n     \n     <div class=\"link-related-footer \">\n         <span class=\"\"><i class=\"fa fa-github\" aria-hidden=\"true\"></i></span>\n"
+                },
+                {
+                    "date": 1780874673815,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-<footer class=\"gitrd text-center my-5 border-top align-items-center justify-content-center\">\n+<footer class=\"gitrd text-center p-3 border-top align-items-center justify-content-center\">\n     <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\">Autor Aprendiz Fabian Andres Asprilla Valverde</p>\n     \n     <div class=\"link-related-footer \">\n         <span class=\"\"><i class=\"fa fa-github\" aria-hidden=\"true\"></i></span>\n"
+                },
+                {
+                    "date": 1780874762178,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n     \n     <div class=\"link-related-footer \">\n         <span class=\"\"><i class=\"fa fa-github\" aria-hidden=\"true\"></i></span>\n         <a href=\"https://github.com/landercor\" aria-current=\"page\" alt=\"my-profiles\">Landercor</a>\n-        <a href=\"https://github.com/Landercorf-As\" aria-current=\"page\" alt=\"my-profiles\">Fabian Asprilla</a>\n+        <a href=\"https://github.com/Landercorf-As\" aria-current=\"page\" text-decoration-none alt=\"my-profiles\">Fabian Asprilla</a>\n     </div>\n     <!-- Un gusto :) -->\n </footer>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1780874791725,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n     \n     <div class=\"link-related-footer \">\n         <span class=\"\"><i class=\"fa fa-github\" aria-hidden=\"true\"></i></span>\n         <a href=\"https://github.com/landercor\" aria-current=\"page\" alt=\"my-profiles\">Landercor</a>\n-        <a href=\"https://github.com/Landercorf-As\" aria-current=\"page\" text-decoration-none alt=\"my-profiles\">Fabian Asprilla</a>\n+        <a href=\"https://github.com/Landercorf-As\" class=\"text-decoration-none\" alt=\"my-profiles\">Fabian Asprilla</a>\n     </div>\n     <!-- Un gusto :) -->\n </footer>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1780874811033,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n <footer class=\"gitrd text-center p-3 border-top align-items-center justify-content-center\">\n     <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\">Autor Aprendiz Fabian Andres Asprilla Valverde</p>\n     \n-    <div class=\"link-related-footer \">\n+    <div class=\"link-related-footer text-decoration-none\">\n         <span class=\"\"><i class=\"fa fa-github\" aria-hidden=\"true\"></i></span>\n         <a href=\"https://github.com/landercor\" aria-current=\"page\" alt=\"my-profiles\">Landercor</a>\n-        <a href=\"https://github.com/Landercorf-As\" class=\"text-decoration-none\" alt=\"my-profiles\">Fabian Asprilla</a>\n+        <a href=\"https://github.com/Landercorf-As\" alt=\"my-profiles\">Fabian Asprilla</a>\n     </div>\n     <!-- Un gusto :) -->\n </footer>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1780874861194,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,11 @@\n <footer class=\"gitrd text-center p-3 border-top align-items-center justify-content-center\">\n     <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\">Autor Aprendiz Fabian Andres Asprilla Valverde</p>\n     \n-    <div class=\"link-related-footer text-decoration-none\">\n-        <span class=\"\"><i class=\"fa fa-github\" aria-hidden=\"true\"></i></span>\n-        <a href=\"https://github.com/landercor\" aria-current=\"page\" alt=\"my-profiles\">Landercor</a>\n-        <a href=\"https://github.com/Landercorf-As\" alt=\"my-profiles\">Fabian Asprilla</a>\n+    <div class=\"link-related-footer\">\n+        <span class=\"text-decoration-none\"><i class=\"fa fa-github\" aria-hidden=\"true\"></i>\n+            <a href=\"https://github.com/landercor\" aria-current=\"page\" alt=\"my-profiles\">Landercor</a>\n+            <a href=\"https://github.com/Landercorf-As\" alt=\"my-profiles\">Fabian Asprilla</a>\n+        </span>\n     </div>\n     <!-- Un gusto :) -->\n </footer>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1780874872562,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,10 @@\n <footer class=\"gitrd text-center p-3 border-top align-items-center justify-content-center\">\n     <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\">Autor Aprendiz Fabian Andres Asprilla Valverde</p>\n     \n-    <div class=\"link-related-footer\">\n-        <span class=\"text-decoration-none\"><i class=\"fa fa-github\" aria-hidden=\"true\"></i>\n-            <a href=\"https://github.com/landercor\" aria-current=\"page\" alt=\"my-profiles\">Landercor</a>\n-            <a href=\"https://github.com/Landercorf-As\" alt=\"my-profiles\">Fabian Asprilla</a>\n-        </span>\n+    <div class=\"link-related-footer text-decoration-none\">\n+        <span class=\"\"><i class=\"fa fa-github\" aria-hidden=\"true\">hola</i></span>\n+        <a href=\"https://github.com/landercor\" aria-current=\"page\" alt=\"my-profiles\">Landercor</a>\n+        <a href=\"https://github.com/Landercorf-As\" alt=\"my-profiles\">Fabian Asprilla</a>\n     </div>\n     <!-- Un gusto :) -->\n </footer>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1780874908098,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,9 @@\n <footer class=\"gitrd text-center p-3 border-top align-items-center justify-content-center\">\n     <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\">Autor Aprendiz Fabian Andres Asprilla Valverde</p>\n     \n     <div class=\"link-related-footer text-decoration-none\">\n-        <span class=\"\"><i class=\"fa fa-github\" aria-hidden=\"true\">hola</i></span>\n-        <a href=\"https://github.com/landercor\" aria-current=\"page\" alt=\"my-profiles\">Landercor</a>\n+        <a href=\"https://github.com/landercor\" alt=\"my-profiles\">Landercor</a>\n         <a href=\"https://github.com/Landercorf-As\" alt=\"my-profiles\">Fabian Asprilla</a>\n     </div>\n     <!-- Un gusto :) -->\n </footer>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1780874920643,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <footer class=\"gitrd text-center p-3 border-top align-items-center justify-content-center\">\n     <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\">Autor Aprendiz Fabian Andres Asprilla Valverde</p>\n     \n     <div class=\"link-related-footer text-decoration-none\">\n-        <a href=\"https://github.com/landercor\" alt=\"my-profiles\">Landercor</a>\n+        <a href=\"https://github.com/landercor\" alt=\"my-profiles\" text-decoration-none>Landercor</a>\n         <a href=\"https://github.com/Landercorf-As\" alt=\"my-profiles\">Fabian Asprilla</a>\n     </div>\n     <!-- Un gusto :) -->\n </footer>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1780874962276,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,11 @@\n <footer class=\"gitrd text-center p-3 border-top align-items-center justify-content-center\">\n     <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\">Autor Aprendiz Fabian Andres Asprilla Valverde</p>\n     \n-    <div class=\"link-related-footer text-decoration-none\">\n-        <a href=\"https://github.com/landercor\" alt=\"my-profiles\" text-decoration-none>Landercor</a>\n-        <a href=\"https://github.com/Landercorf-As\" alt=\"my-profiles\">Fabian Asprilla</a>\n+    <div class=\"link-related-footer \">\n+        <div class=\"text-decoration-none\">\n+            <a href=\"https://github.com/landercor\" alt=\"my-profiles\" >Landercor</a>\n+            <a href=\"https://github.com/Landercorf-As\" alt=\"my-profiles\">Fabian Asprilla</a>\n+        </div>\n     </div>\n     <!-- Un gusto :) -->\n </footer>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1780875023944,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,9 @@\n <footer class=\"gitrd text-center p-3 border-top align-items-center justify-content-center\">\n     <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\">Autor Aprendiz Fabian Andres Asprilla Valverde</p>\n     \n     <div class=\"link-related-footer \">\n-        <div class=\"text-decoration-none\">\n-            <a href=\"https://github.com/landercor\" alt=\"my-profiles\" >Landercor</a>\n-            <a href=\"https://github.com/Landercorf-As\" alt=\"my-profiles\">Fabian Asprilla</a>\n-        </div>\n+        <a href=\"https://github.com/landercor\" alt=\"my-profiles\" class=\"text-decoration-none\">Landercor</a>\n+        <a href=\"https://github.com/Landercorf-As\" alt=\"my-profiles\" class=\"text-decoration-none\">Fabian Asprilla</a>\n     </div>\n     <!-- Un gusto :) -->\n </footer>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1780875045617,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <footer class=\"gitrd text-center p-3 border-top align-items-center justify-content-center\">\n     <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\">Autor Aprendiz Fabian Andres Asprilla Valverde</p>\n     \n-    <div class=\"link-related-footer \">\n+    <div class=\"link-related-footer gap3\">\n         <a href=\"https://github.com/landercor\" alt=\"my-profiles\" class=\"text-decoration-none\">Landercor</a>\n         <a href=\"https://github.com/Landercorf-As\" alt=\"my-profiles\" class=\"text-decoration-none\">Fabian Asprilla</a>\n     </div>\n     <!-- Un gusto :) -->\n"
+                },
+                {
+                    "date": 1780875051386,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <footer class=\"gitrd text-center p-3 border-top align-items-center justify-content-center\">\n     <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\">Autor Aprendiz Fabian Andres Asprilla Valverde</p>\n     \n-    <div class=\"link-related-footer gap3\">\n+    <div class=\"link-related-footer gap-3\">\n         <a href=\"https://github.com/landercor\" alt=\"my-profiles\" class=\"text-decoration-none\">Landercor</a>\n         <a href=\"https://github.com/Landercorf-As\" alt=\"my-profiles\" class=\"text-decoration-none\">Fabian Asprilla</a>\n     </div>\n     <!-- Un gusto :) -->\n"
+                },
+                {
+                    "date": 1780875067243,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <footer class=\"gitrd text-center p-3 border-top align-items-center justify-content-center\">\n     <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\">Autor Aprendiz Fabian Andres Asprilla Valverde</p>\n     \n-    <div class=\"link-related-footer gap-3\">\n-        <a href=\"https://github.com/landercor\" alt=\"my-profiles\" class=\"text-decoration-none\">Landercor</a>\n-        <a href=\"https://github.com/Landercorf-As\" alt=\"my-profiles\" class=\"text-decoration-none\">Fabian Asprilla</a>\n+    <div class=\"link-related-footer\">\n+        <a href=\"https://github.com/landercor\" alt=\"my-profiles\" class=\"text-decoration-none gap-3\">Landercor</a>\n+        <a href=\"https://github.com/Landercorf-As\" alt=\"my-profiles\" class=\"text-decoration-none gap-3\">Fabian Asprilla</a>\n     </div>\n     <!-- Un gusto :) -->\n </footer>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1780875259339,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n-<footer class=\"gitrd text-center p-3 border-top align-items-center justify-content-center\">\n-    <p class=\"own-author\" style=\"font-family: Arial, Helvetica, sans-serif;\">Autor Aprendiz Fabian Andres Asprilla Valverde</p>\n-    \n-    <div class=\"link-related-footer\">\n-        <a href=\"https://github.com/landercor\" alt=\"my-profiles\" class=\"text-decoration-none gap-3\">Landercor</a>\n-        <a href=\"https://github.com/Landercorf-As\" alt=\"my-profiles\" class=\"text-decoration-none gap-3\">Fabian Asprilla</a>\n+<footer class=\"text-center p-3 border-top\">\n+    <p style=\"font-family: Arial, Helvetica, sans-serif;\">\n+        Autor Aprendiz Fabian Andres Asprilla Valverde\n+    </p>\n+\n+    <div class=\"d-flex justify-content-center gap-3\">\n+        <a href=\"https://github.com/landercor\" class=\"text-decoration-none\">Landercor</a>\n+        <a href=\"https://github.com/Landercorf-As\" class=\"text-decoration-none\">Fabian Asprilla</a>\n     </div>\n-    <!-- Un gusto :) -->\n </footer>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1780875321792,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     <p style=\"font-family: Arial, Helvetica, sans-serif;\">\n         Autor Aprendiz Fabian Andres Asprilla Valverde\n     </p>\n \n-    <div class=\"d-flex justify-content-center gap-3\">\n+    <div class=\"d-flex justify-content-center gap-3 mt-5\">\n         <a href=\"https://github.com/landercor\" class=\"text-decoration-none\">Landercor</a>\n         <a href=\"https://github.com/Landercorf-As\" class=\"text-decoration-none\">Fabian Asprilla</a>\n     </div>\n </footer>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1780875330145,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     <p style=\"font-family: Arial, Helvetica, sans-serif;\">\n         Autor Aprendiz Fabian Andres Asprilla Valverde\n     </p>\n \n-    <div class=\"d-flex justify-content-center gap-3 mt-5\">\n+    <div class=\"d-flex justify-content-center gap-3 mt-1\">\n         <a href=\"https://github.com/landercor\" class=\"text-decoration-none\">Landercor</a>\n         <a href=\"https://github.com/Landercorf-As\" class=\"text-decoration-none\">Fabian Asprilla</a>\n     </div>\n </footer>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1780875708892,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,12 @@\n-<footer class=\"text-center p-3 border-top\">\n-    <p style=\"font-family: Arial, Helvetica, sans-serif;\">\n-        Autor Aprendiz Fabian Andres Asprilla Valverde\n-    </p>\n+<footer class=\"p-3 border-top\">\n+    <div>\n+        <p class=\"mt-0 \" style=\"font-family: Arial, Helvetica, sans-serif;\">\n+            Autor Aprendiz Fabian Andres Asprilla Valverde\n+        </p>\n \n-    <div class=\"d-flex justify-content-center gap-3 mt-1\">\n-        <a href=\"https://github.com/landercor\" class=\"text-decoration-none\">Landercor</a>\n-        <a href=\"https://github.com/Landercorf-As\" class=\"text-decoration-none\">Fabian Asprilla</a>\n+        <div class=\"d-flex justify-content-center gap-3 mt-1\">\n+            <a href=\"https://github.com/landercor\" class=\"text-decoration-none\">Landercor</a>\n+            <a href=\"https://github.com/Landercorf-As\" class=\"text-decoration-none\">Fabian Asprilla</a>\n+        </div>\n     </div>\n </footer>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1780875756493,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <footer class=\"p-3 border-top\">\n-    <div>\n-        <p class=\"mt-0 \" style=\"font-family: Arial, Helvetica, sans-serif;\">\n+    <div class=\"d-flex font-family: Arial, Helvetica, sans-serif;\">\n+        <p class=\"mt-0 \" >\n             Autor Aprendiz Fabian Andres Asprilla Valverde\n         </p>\n \n         <div class=\"d-flex justify-content-center gap-3 mt-1\">\n"
+                },
+                {
+                    "date": 1780875768335,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n         <p class=\"mt-0 \" >\n             Autor Aprendiz Fabian Andres Asprilla Valverde\n         </p>\n \n-        <div class=\"d-flex justify-content-center gap-3 mt-1\">\n+        <div class=\"d-flex justify-content-center gap-3 \">\n             <a href=\"https://github.com/landercor\" class=\"text-decoration-none\">Landercor</a>\n             <a href=\"https://github.com/Landercorf-As\" class=\"text-decoration-none\">Fabian Asprilla</a>\n         </div>\n     </div>\n"
+                },
+                {
+                    "date": 1780875784648,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <footer class=\"p-3 border-top\">\n-    <div class=\"d-flex font-family: Arial, Helvetica, sans-serif;\">\n+    <div class=\"d-flex font-family: Arial, Helvetica, sans-serif; gap-3\">\n         <p class=\"mt-0 \" >\n             Autor Aprendiz Fabian Andres Asprilla Valverde\n         </p>\n \n"
+                },
+                {
+                    "date": 1780875799407,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <footer class=\"p-3 border-top\">\n-    <div class=\"d-flex font-family: Arial, Helvetica, sans-serif; gap-3\">\n+    <div class=\"d-flex font-family: Arial, Helvetica, sans-serif; gap-3 text-center\">\n         <p class=\"mt-0 \" >\n             Autor Aprendiz Fabian Andres Asprilla Valverde\n         </p>\n \n"
+                },
+                {
+                    "date": 1780875816935,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <footer class=\"p-3 border-top\">\n-    <div class=\"d-flex font-family: Arial, Helvetica, sans-serif; gap-3 text-center\">\n+    <div class=\"d-flex font-family: Arial, Helvetica, sans-serif; gap-3 justify-content-center\">\n         <p class=\"mt-0 \" >\n             Autor Aprendiz Fabian Andres Asprilla Valverde\n         </p>\n \n"
+                },
+                {
+                    "date": 1780875857610,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n         <p class=\"mt-0 \" >\n             Autor Aprendiz Fabian Andres Asprilla Valverde\n         </p>\n \n-        <div class=\"d-flex justify-content-center gap-3 \">\n+        <div class=\"d-flex gap-3 \">\n             <a href=\"https://github.com/landercor\" class=\"text-decoration-none\">Landercor</a>\n             <a href=\"https://github.com/Landercorf-As\" class=\"text-decoration-none\">Fabian Asprilla</a>\n         </div>\n     </div>\n"
+                }
+            ],
+            "date": 1780870608965,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"es\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Document</title>\n</head>\n<body>\n    \n</body>\n</html>"
+        }
+    ]
+}
