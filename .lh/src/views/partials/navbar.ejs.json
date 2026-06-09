@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 12,
+            "activePatchIndex": 17,
             "patches": [
                 {
                     "date": 1780876011941,
@@ -56,6 +56,26 @@
                 {
                     "date": 1780877404864,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     <title>Main | Evento ECCI</title>\n         <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB\" crossorigin=\"anonymous\">\n     <link href=\"https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap\" rel=\"stylesheet\">\n     <link href=\"https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap\" rel=\"stylesheet\">\n-    <link rel=\"stylesheet\" href=\"/public/css/styles.css\">\n+    <link rel=\"stylesheet\" href=\"/css/styles.css\">\n \n </head>\n <body>\n     <header class=\"navbar navbar-expand border-bottom sticky-top bg-transparent justify-content-between\" id=\"navbar-z\">\n"
+                },
+                {
+                    "date": 1780966710321,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,14 +1,4 @@\n-<!DOCTYPE html>\n-<html lang=\"es\">\n-<head>\n-    <meta charset=\"UTF-8\">\n-    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n-    <title>Main | Evento ECCI</title>\n-        <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB\" crossorigin=\"anonymous\">\n-    <link href=\"https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap\" rel=\"stylesheet\">\n-    <link href=\"https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap\" rel=\"stylesheet\">\n-    <link rel=\"stylesheet\" href=\"/css/styles.css\">\n \n </head>\n <body>\n     <header class=\"navbar navbar-expand border-bottom sticky-top bg-transparent justify-content-between\" id=\"navbar-z\">\n@@ -29,9 +19,5 @@\n                     <a class=\"nav-link disabled \">Disabled</a>\n                 </li>\n             </ul>\n         </nav>\n-    </header>\n-    \n-    \n-</body>\n-</html>\n\\ No newline at end of file\n+    </header>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1780966721086,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,14 @@\n+<!DOCTYPE html>\n+<html lang=\"es\">\n+<head>\n+    <meta charset=\"UTF-8\">\n+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n+    <title>Main | Evento ECCI</title>\n+        <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB\" crossorigin=\"anonymous\">\n+    <link href=\"https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap\" rel=\"stylesheet\">\n+    <link href=\"https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap\" rel=\"stylesheet\">\n+    <link rel=\"stylesheet\" href=\"/css/styles.css\">\n \n </head>\n <body>\n     <header class=\"navbar navbar-expand border-bottom sticky-top bg-transparent justify-content-between\" id=\"navbar-z\">\n@@ -19,5 +29,9 @@\n                     <a class=\"nav-link disabled \">Disabled</a>\n                 </li>\n             </ul>\n         </nav>\n-    </header>\n\\ No newline at end of file\n+    </header>\n+    \n+    \n+</body>\n+</html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1780982328297,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n         </div>\n         <nav class=\"d-flex justify-content-end\">\n             <ul class=\"nav\">\n                 <li class=\"nav-item\">\n-                    <a class=\"nav-link active\" aria-current=\"page\" href=\"/src/views/main.html\">Home</a>\n+                    <a class=\"nav-link active\" aria-current=\"page\" href=\"/views/main.html\">Home</a>\n                 </li>\n                 <li class=\"nav-item\">\n                     <a class=\"nav-link disabled \">Disabled</a>\n                 </li>\n"
+                },
+                {
+                    "date": 1780982399282,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n         </div>\n         <nav class=\"d-flex justify-content-end\">\n             <ul class=\"nav\">\n                 <li class=\"nav-item\">\n-                    <a class=\"nav-link active\" aria-current=\"page\" href=\"/views/main.html\">Home</a>\n+                    <a class=\"nav-link active\" aria-current=\"page\" href=\"/\">Home</a>\n                 </li>\n                 <li class=\"nav-item\">\n                     <a class=\"nav-link disabled \">Disabled</a>\n                 </li>\n"
+                },
+                {
+                    "date": 1780982427621,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n                 <figure class=\"m-2\">\n                     <img src=\"/img/logo.png\" alt=\"Logo-University\" width=\"50\" height=\"50\">\n                 </figure>\n                 <i class=\"fa fa-university \" aria-hidden=\"true\" ></i>\n-                <span class=\"fs-6 opacity-75\">University</span>\n+                <span class=\"fs-6 opacity-75\">University | SENA CMTC</span>\n         </div>\n         <nav class=\"d-flex justify-content-end\">\n             <ul class=\"nav\">\n                 <li class=\"nav-item\">\n"
                 }
             ],
             "date": 1780876011941,

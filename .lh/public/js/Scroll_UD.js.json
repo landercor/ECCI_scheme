@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1780876779564,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1780966918247,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n window.addEventListener('scroll', () => {\n     const navbar = document.getElementById('navbar-z');\n+    if (!navbar) return;\n     if (window.scrollY > 50) {\n         navbar.classList.add('scrolled');\n     } else {\n         navbar.classList.remove('scrolled');\n"
                 }
             ],
             "date": 1780876779564,

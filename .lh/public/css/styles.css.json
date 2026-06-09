@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 7,
+            "activePatchIndex": 26,
             "patches": [
                 {
                     "date": 1780870604114,
@@ -36,6 +36,82 @@
                 {
                     "date": 1780878206882,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n     -webkit-backdrop-filter: blur(8px);\n     backdrop-filter: blur(8px);\n }\n #navbar-z.scrolled {\n-    background-color: rgba(255, 255, 255, 0.644) !important;\n+    background-color: rgba(255, 255, 255, 0.685) !important;\n }\n .overflow-divider {\n     padding-bottom: 0.18em;\n }\n"
+                },
+                {
+                    "date": 1780955515177,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,11 +13,12 @@\n     font-family: 'Arial Black', Gadget, sans-serif;\n \n }\n \n+\n @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Signika+Negative&display=swap');\n+@import \"carousel\";\n \n-\n span, a, h2  {\n     font-family: 'Lato', sans-serif;\n     font-style: normal;\n     font-weight: bold;\n@@ -34,9 +35,9 @@\n     -webkit-backdrop-filter: blur(8px);\n     backdrop-filter: blur(8px);\n }\n #navbar-z.scrolled {\n-    background-color: rgba(255, 255, 255, 0.685) !important;\n+    background-color: rgba(255, 255, 255, 0.548) !important;\n }\n .overflow-divider {\n     padding-bottom: 0.18em;\n }\n@@ -68,5 +69,19 @@\n \n .activity-label {\n     letter-spacing: 0.30em;\n     font-family: monospace;\n-}\n\\ No newline at end of file\n+}\n+\n+.styles-span {\n+    font-family: Lato, sans-serif;\n+    font-weight: 400;\n+    src: url(https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh6UVSwaPGR_p.woff2) format('woff2');\n+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;\n+}\n+.rd-flex-description {\n+    transition: background-color 0.3s ease;\n+}\n+\n+.rd-flex-description {\n+    background-color: #f8f9fa;\n+}\n"
+                },
+                {
+                    "date": 1780955758044,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -77,11 +77,11 @@\n     font-weight: 400;\n     src: url(https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh6UVSwaPGR_p.woff2) format('woff2');\n     unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;\n }\n-.rd-flex-description {\n+.card-flex-descriptio {\n     transition: background-color 0.3s ease;\n }\n \n-.rd-flex-description {\n+.card-flex-descriptio {\n     background-color: #f8f9fa;\n }\n"
+                },
+                {
+                    "date": 1780959414991,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -84,4 +84,9 @@\n \n .card-flex-descriptio {\n     background-color: #f8f9fa;\n }\n+\n+details summary {\n+    list-style: none;\n+    cursor: pointer;\n+}\n"
+                },
+                {
+                    "date": 1780966233599,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -85,8 +85,9 @@\n .card-flex-descriptio {\n     background-color: #f8f9fa;\n }\n \n-details summary {\n+/*cambio de stylo del datails*/\n+details summary { \n     list-style: none;\n     cursor: pointer;\n }\n"
+                },
+                {
+                    "date": 1780966280343,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -86,8 +86,13 @@\n     background-color: #f8f9fa;\n }\n \n /*cambio de stylo del datails*/\n-details summary { \n+\n+details summary {\n     list-style: none;\n     cursor: pointer;\n }\n+\n+details summary::-webkit-details-marker {\n+    display: none;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1780966332851,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -87,9 +87,9 @@\n }\n \n /*cambio de stylo del datails*/\n \n-details summary {\n+.details summary {\n     list-style: none;\n     cursor: pointer;\n }\n \n"
+                },
+                {
+                    "date": 1780967202852,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -87,12 +87,16 @@\n }\n \n /*cambio de stylo del datails*/\n \n-.details summary {\n+details summary {\n     list-style: none;\n     cursor: pointer;\n+    display: block;\n }\n \n details summary::-webkit-details-marker {\n     display: none;\n+}\n+details summary::webkit-details-marker {\n+    display: none;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1780967209038,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -96,7 +96,7 @@\n \n details summary::-webkit-details-marker {\n     display: none;\n }\n-details summary::webkit-details-marker {\n+details summary::-webkit-details-marker {\n     display: none;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1780967236421,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,9 +93,9 @@\n     cursor: pointer;\n     display: block;\n }\n \n-details summary::-webkit-details-marker {\n+details summary::marker {\n     display: none;\n }\n details summary::-webkit-details-marker {\n     display: none;\n"
+                },
+                {
+                    "date": 1780969390632,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,5 +98,13 @@\n     display: none;\n }\n details summary::-webkit-details-marker {\n     display: none;\n+}\n+\n+datails summary i {\n+    transition: transform 0.3s ease;\n+}\n+\n+datalist [open] summary i {\n+    transform: rotate(90deg);\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1780969419241,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -100,11 +100,11 @@\n details summary::-webkit-details-marker {\n     display: none;\n }\n \n-datails summary i {\n+details summary i {\n     transition: transform 0.3s ease;\n }\n \n-datalist [open] summary i {\n+detalist [open] summary i {\n     transform: rotate(90deg);\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1780969450256,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -104,7 +104,7 @@\n details summary i {\n     transition: transform 0.3s ease;\n }\n \n-detalist [open] summary i {\n+detalist[open] summary i {\n     transform: rotate(90deg);\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1780969528198,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -102,9 +102,10 @@\n }\n \n details summary i {\n     transition: transform 0.3s ease;\n+    display: inline-block;\n }\n \n-detalist[open] summary i {\n+detalis[open] summary i {\n     transform: rotate(90deg);\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1780969586764,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -105,7 +105,7 @@\n     transition: transform 0.3s ease;\n     display: inline-block;\n }\n \n-detalis[open] summary i {\n+details[open] summary i {\n     transform: rotate(90deg);\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1780977042116,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,111 @@\n+\n+:root {\n+    font-family: 'Arial', sans-serif;\n+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;\n+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n+    font-family: 'Trebuchet MS', Helvetica, sans-serif;\n+    font-family: 'Verdana', sans-serif;\n+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;\n+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;\n+    font-family: 'Tahoma', 'Geneva', sans-serif;\n+    font-family: 'Impact', Charcoal, sans-serif;\n+    font-family: 'Comic Sans MS', cursive, sans-serif;\n+    font-family: 'Arial Black', Gadget, sans-serif;\n+\n+}\n+\n+\n+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Signika+Negative&display=swap');\n+@import \"carousel\";\n+\n+span, a, h2  {\n+    font-family: 'Lato', sans-serif;\n+    font-style: normal;\n+    font-weight: bold;\n+}\n+p {\n+    font-family: Arial, Helvetica, sans-serif;\n+    font-style: light;\n+    font-weight: bold;\n+}\n+\n+#navbar-z {\n+    background-color: transparent;\n+    transition: background-color 0.3s ease ; \n+    -webkit-backdrop-filter: blur(8px);\n+    backdrop-filter: blur(8px);\n+}\n+#navbar-z.scrolled {\n+    background-color: rgba(255, 255, 255, 0.548) !important;\n+}\n+.overflow-divider {\n+    padding-bottom: 0.18em;\n+}\n+\n+.image-cover {\n+    height: 510px;\n+    width: 100%;\n+    object-fit: cover;\n+}\n+\n+.overflow-divider {\n+    padding-bottom: 0.18em;\n+}\n+\n+.image-cover {\n+    height: 410px;\n+    width: 100%;\n+    object-fit: cover;\n+}\n+\n+.heading-title {\n+    font-family: 'Lato', sans-serif;\n+    font-weight: 700;\n+}\n+\n+.overflow-hidden-divider {\n+    padding-bottom: 0.18em;\n+}\n+\n+.activity-label {\n+    letter-spacing: 0.30em;\n+    font-family: monospace;\n+}\n+\n+.styles-span {\n+    font-family: Lato, sans-serif;\n+    font-weight: 400;\n+    src: url(https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh6UVSwaPGR_p.woff2) format('woff2');\n+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;\n+}\n+.card-flex-descriptio {\n+    transition: background-color 0.3s ease;\n+}\n+\n+.card-flex-descriptio {\n+    background-color: #f8f9fa;\n+}\n+\n+/*cambio de stylo del datails*/\n+\n+details summary {\n+    list-style: none;\n+    cursor: pointer;\n+    display: block;\n+}\n+\n+details summary::marker {\n+    display: none;\n+}\n+details summary::-webkit-details-marker {\n+    display: none;\n+}\n+\n+details summary i {\n+    transition: transform 0.5s ease;\n+    display: inline-block;\n+}\n+\n+details[open] summary i {\n+    transform: rotate(90deg);\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1780977055783,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -107,116 +107,5 @@\n }\n \n details[open] summary i {\n     transform: rotate(90deg);\n-}\n-\n-:root {\n-    font-family: 'Arial', sans-serif;\n-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;\n-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n-    font-family: 'Trebuchet MS', Helvetica, sans-serif;\n-    font-family: 'Verdana', sans-serif;\n-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;\n-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;\n-    font-family: 'Tahoma', 'Geneva', sans-serif;\n-    font-family: 'Impact', Charcoal, sans-serif;\n-    font-family: 'Comic Sans MS', cursive, sans-serif;\n-    font-family: 'Arial Black', Gadget, sans-serif;\n-\n-}\n-\n-\n-@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Signika+Negative&display=swap');\n-@import \"carousel\";\n-\n-span, a, h2  {\n-    font-family: 'Lato', sans-serif;\n-    font-style: normal;\n-    font-weight: bold;\n-}\n-p {\n-    font-family: Arial, Helvetica, sans-serif;\n-    font-style: light;\n-    font-weight: bold;\n-}\n-\n-#navbar-z {\n-    background-color: transparent;\n-    transition: background-color 0.3s ease ; \n-    -webkit-backdrop-filter: blur(8px);\n-    backdrop-filter: blur(8px);\n-}\n-#navbar-z.scrolled {\n-    background-color: rgba(255, 255, 255, 0.548) !important;\n-}\n-.overflow-divider {\n-    padding-bottom: 0.18em;\n-}\n-\n-.image-cover {\n-    height: 510px;\n-    width: 100%;\n-    object-fit: cover;\n-}\n-\n-.overflow-divider {\n-    padding-bottom: 0.18em;\n-}\n-\n-.image-cover {\n-    height: 410px;\n-    width: 100%;\n-    object-fit: cover;\n-}\n-\n-.heading-title {\n-    font-family: 'Lato', sans-serif;\n-    font-weight: 700;\n-}\n-\n-.overflow-hidden-divider {\n-    padding-bottom: 0.18em;\n-}\n-\n-.activity-label {\n-    letter-spacing: 0.30em;\n-    font-family: monospace;\n-}\n-\n-.styles-span {\n-    font-family: Lato, sans-serif;\n-    font-weight: 400;\n-    src: url(https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh6UVSwaPGR_p.woff2) format('woff2');\n-    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;\n-}\n-.card-flex-descriptio {\n-    transition: background-color 0.3s ease;\n-}\n-\n-.card-flex-descriptio {\n-    background-color: #f8f9fa;\n-}\n-\n-/*cambio de stylo del datails*/\n-\n-details summary {\n-    list-style: none;\n-    cursor: pointer;\n-    display: block;\n-}\n-\n-details summary::marker {\n-    display: none;\n-}\n-details summary::-webkit-details-marker {\n-    display: none;\n-}\n-\n-details summary i {\n-    transition: transform 0.3s ease;\n-    display: inline-block;\n-}\n-\n-details[open] summary i {\n-    transform: rotate(90deg);\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1780977957069,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -107,5 +107,9 @@\n }\n \n details[open] summary i {\n     transform: rotate(90deg);\n+}\n+\n+.carousel-item {\n+    transition: opacity 1.5s ease-in-out !important;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1780977975641,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -110,6 +110,6 @@\n     transform: rotate(90deg);\n }\n \n .carousel-item {\n-    transition: opacity 1.5s ease-in-out !important;\n+    transition: opacity 0.8s ease-in-out !important;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1780977989070,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -110,6 +110,6 @@\n     transform: rotate(90deg);\n }\n \n .carousel-item {\n-    transition: opacity 0.8s ease-in-out !important;\n+    transition: opacity 0.6s ease-in-out !important;\n }\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1780870604114,

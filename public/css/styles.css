@@ -16,7 +16,7 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Signika+Negative&display=swap');
-
+@import "carousel";
 
 span, a, h2  {
     font-family: 'Lato', sans-serif;
@@ -77,4 +77,39 @@ p {
     font-weight: 400;
     src: url(https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh6UVSwaPGR_p.woff2) format('woff2');
     unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+.card-flex-descriptio {
+    transition: background-color 0.3s ease;
+}
+
+.card-flex-descriptio {
+    background-color: #f8f9fa;
+}
+
+/*cambio de stylo del datails*/
+
+details summary {
+    list-style: none;
+    cursor: pointer;
+    display: block;
+}
+
+details summary::marker {
+    display: none;
+}
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+details summary i {
+    transition: transform 0.5s ease;
+    display: inline-block;
+}
+
+details[open] summary i {
+    transform: rotate(90deg);
+}
+
+.carousel-item {
+    transition: opacity 0.6s ease-in-out !important;
 }
