@@ -6,3 +6,4 @@
 # Ignore node modules
 .history/
 .ls/
+.partials/

@@ -1,0 +1,46 @@
+{
+    "sourceFile": "css/styles.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 7,
+            "patches": [
+                {
+                    "date": 1781142062973,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1781142333206,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -112,15 +112,24 @@\n \n .carousel-item {\n     transition: opacity 0.6s ease-in-out !important;\n }\n-\n dialog {\n     position: fixed;\n     bottom: 20px;\n     left: 50%;\n     transform: translateX(-50%);\n     border: none;\n     border-radius: 8px;\n-    padding: 20px;\n+    padding: 0;\n     box-shadow: 0 4px 20px rgba(0,0,0,0.15);\n+    width: 300px;\n+    overflow: hidden;\n+}\n+\n+dialog p {\n+    padding: 10px 15px;\n+}\n+\n+dialog button {\n+    margin: 0 15px 15px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1781142542406,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -115,9 +115,9 @@\n }\n dialog {\n     position: fixed;\n     bottom: 20px;\n-    left: 50%;\n+    left: 100%;\n     transform: translateX(-50%);\n     border: none;\n     border-radius: 8px;\n     padding: 0;\n"
+                },
+                {
+                    "date": 1781142557243,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -115,9 +115,9 @@\n }\n dialog {\n     position: fixed;\n     bottom: 20px;\n-    left: 100%;\n+    left: 75%;\n     transform: translateX(-50%);\n     border: none;\n     border-radius: 8px;\n     padding: 0;\n"
+                },
+                {
+                    "date": 1781142562794,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -115,9 +115,9 @@\n }\n dialog {\n     position: fixed;\n     bottom: 20px;\n-    left: 75%;\n+    left: 95%;\n     transform: translateX(-50%);\n     border: none;\n     border-radius: 8px;\n     padding: 0;\n"
+                },
+                {
+                    "date": 1781142571723,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -115,9 +115,9 @@\n }\n dialog {\n     position: fixed;\n     bottom: 20px;\n-    left: 95%;\n+    left: 93%;\n     transform: translateX(-50%);\n     border: none;\n     border-radius: 8px;\n     padding: 0;\n"
+                },
+                {
+                    "date": 1781142576937,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -115,9 +115,9 @@\n }\n dialog {\n     position: fixed;\n     bottom: 20px;\n-    left: 93%;\n+    left: 91%;\n     transform: translateX(-50%);\n     border: none;\n     border-radius: 8px;\n     padding: 0;\n"
+                },
+                {
+                    "date": 1781142586060,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -115,15 +115,15 @@\n }\n dialog {\n     position: fixed;\n     bottom: 20px;\n-    left: 91%;\n+    left: 92%;\n     transform: translateX(-50%);\n     border: none;\n     border-radius: 8px;\n     padding: 0;\n     box-shadow: 0 4px 20px rgba(0,0,0,0.15);\n-    width: 300px;\n+    width: 303px;\n     overflow: hidden;\n }\n \n dialog p {\n"
+                }
+            ],
+            "date": 1781142062973,
+            "name": "Commit-0",
+            "content": "\n:root {\n    font-family: 'Arial', sans-serif;\n    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;\n    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n    font-family: 'Trebuchet MS', Helvetica, sans-serif;\n    font-family: 'Verdana', sans-serif;\n    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;\n    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;\n    font-family: 'Tahoma', 'Geneva', sans-serif;\n    font-family: 'Impact', Charcoal, sans-serif;\n    font-family: 'Comic Sans MS', cursive, sans-serif;\n    font-family: 'Arial Black', Gadget, sans-serif;\n\n}\n\n\n@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Signika+Negative&display=swap');\n@import \"carousel\";\n\nspan, a, h2  {\n    font-family: 'Lato', sans-serif;\n    font-style: normal;\n    font-weight: bold;\n}\np {\n    font-family: Arial, Helvetica, sans-serif;\n    font-style: light;\n    font-weight: bold;\n}\n\n#navbar-z {\n    background-color: transparent;\n    transition: background-color 0.3s ease ; \n    -webkit-backdrop-filter: blur(8px);\n    backdrop-filter: blur(8px);\n}\n#navbar-z.scrolled {\n    background-color: rgba(255, 255, 255, 0.548) !important;\n}\n.overflow-divider {\n    padding-bottom: 0.18em;\n}\n\n.image-cover {\n    height: 510px;\n    width: 100%;\n    object-fit: cover;\n}\n\n.overflow-divider {\n    padding-bottom: 0.18em;\n}\n\n.image-cover {\n    height: 410px;\n    width: 100%;\n    object-fit: cover;\n}\n\n.heading-title {\n    font-family: 'Lato', sans-serif;\n    font-weight: 700;\n}\n\n.overflow-hidden-divider {\n    padding-bottom: 0.18em;\n}\n\n.activity-label {\n    letter-spacing: 0.30em;\n    font-family: monospace;\n}\n\n.styles-span {\n    font-family: Lato, sans-serif;\n    font-weight: 400;\n    src: url(https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh6UVSwaPGR_p.woff2) format('woff2');\n    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n.card-flex-descriptio {\n    transition: background-color 0.3s ease;\n}\n\n.card-flex-descriptio {\n    background-color: #f8f9fa;\n}\n\n/*cambio de stylo del datails*/\n\ndetails summary {\n    list-style: none;\n    cursor: pointer;\n    display: block;\n}\n\ndetails summary::marker {\n    display: none;\n}\ndetails summary::-webkit-details-marker {\n    display: none;\n}\n\ndetails summary i {\n    transition: transform 0.5s ease;\n    display: inline-block;\n}\n\ndetails[open] summary i {\n    transform: rotate(90deg);\n}\n\n.carousel-item {\n    transition: opacity 0.6s ease-in-out !important;\n}\n\ndialog {\n    position: fixed;\n    bottom: 20px;\n    left: 50%;\n    transform: translateX(-50%);\n    border: none;\n    border-radius: 8px;\n    padding: 20px;\n    box-shadow: 0 4px 20px rgba(0,0,0,0.15);\n}"
+        }
+    ]
+}
