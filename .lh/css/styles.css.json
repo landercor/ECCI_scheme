@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 7,
+            "activePatchIndex": 8,
             "patches": [
                 {
                     "date": 1781142062973,
@@ -36,6 +36,10 @@
                 {
                     "date": 1781142586060,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -115,15 +115,15 @@\n }\n dialog {\n     position: fixed;\n     bottom: 20px;\n-    left: 91%;\n+    left: 92%;\n     transform: translateX(-50%);\n     border: none;\n     border-radius: 8px;\n     padding: 0;\n     box-shadow: 0 4px 20px rgba(0,0,0,0.15);\n-    width: 300px;\n+    width: 303px;\n     overflow: hidden;\n }\n \n dialog p {\n"
+                },
+                {
+                    "date": 1781144018507,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -112,8 +112,11 @@\n \n .carousel-item {\n     transition: opacity 0.6s ease-in-out !important;\n }\n+footer {\n+    font-family: Arial, Helvetica, sans-serif;\n+}\n dialog {\n     position: fixed;\n     bottom: 20px;\n     left: 92%;\n@@ -121,9 +124,9 @@\n     border: none;\n     border-radius: 8px;\n     padding: 0;\n     box-shadow: 0 4px 20px rgba(0,0,0,0.15);\n-    width: 303px;\n+    width: 305px;\n     overflow: hidden;\n }\n \n dialog p {\n"
                 }
             ],
             "date": 1781142062973,

@@ -113,6 +113,9 @@ details[open] summary i {
 .carousel-item {
     transition: opacity 0.6s ease-in-out !important;
 }
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+}
 dialog {
     position: fixed;
     bottom: 20px;
